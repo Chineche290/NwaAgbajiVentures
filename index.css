@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.motto {
+  font-style: italic;
+  color: #f1c40f; 
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #4b7c49;
