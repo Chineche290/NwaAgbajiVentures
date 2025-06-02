@@ -5,12 +5,18 @@
 }
 
 .motto {
+  font-family: 'Georgia', serif;
   font-style: italic;
-  color: #f1c40f; 
-  font-size: 1rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #d4af37; 
   margin-top: 0.5rem;
   text-align: center;
+  letter-spacing: 1px;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 1.2s ease-in-out;
 }
+
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -339,7 +345,7 @@ footer {
   width: 100%;
   border-top: 8px solid #4b7c49;
 
-  /* ✅ This centers it horizontally */
+ 
   margin: 0 auto;
 }
 
@@ -385,3 +391,15 @@ footer {
     margin: 0.5rem 0;
   }
 </style>
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
