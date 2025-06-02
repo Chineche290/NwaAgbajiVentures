@@ -1,10 +1,11 @@
 // Hamburger Menu Toggle
 const hamburger = document.getElementById('hamburger');
-const navMenu = document.querySelector('nav ul');
+const navMenu = document.getElementById('nav-menu');
 
 hamburger.addEventListener('click', () => {
   navMenu.classList.toggle('show');
 });
+
 
 // Scroll-triggered fade-in animation
 const observer = new IntersectionObserver(
