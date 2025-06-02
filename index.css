@@ -4,20 +4,6 @@
   box-sizing: border-box;
 }
 
-.motto {
-  font-family: 'Georgia', serif;
-  font-style: italic;
-  font-weight: 500;
-  font-size: 1.1rem;
-  color: #d4af37; 
-  margin-top: 0.5rem;
-  text-align: center;
-  letter-spacing: 1px;
-  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
-  animation: fadeIn 1.2s ease-in-out;
-}
-
-
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #4b7c49;
@@ -390,6 +376,19 @@ footer {
   .contact-details p {
     margin: 0.5rem 0;
   }
+
+.motto {
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #d4af37; 
+  margin-top: 0.5rem;
+  text-align: center;
+  letter-spacing: 1px;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 1.2s ease-in-out;
+}
 </style>
 
 @keyframes fadeIn {
