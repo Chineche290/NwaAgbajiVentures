@@ -56,15 +56,37 @@ nav ul li a:hover {
   color: #ffffff;
 }
 
-.hamburger {
-  display: none;
-  font-size: 2rem;
-  color: #f1c40f;
-  position: absolute;
-  top: 0;
-  right: 1rem;
-  cursor: pointer;
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+    font-size: 2rem;
+    color: #f1c40f;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1001;
+  }
+
+  #nav-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #0d240d;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    padding: 1rem;
+  }
+
+  #nav-menu.show {
+    display: flex;
+  }
 }
+
 
 .hero {
   background: url('image/hero.jpg') no-repeat center center/cover;
